@@ -1,0 +1,20 @@
+-wireframe/design prototype app;
+-will be used to generate mock-ups for websites;
+-simplified yet powerful workflow;
+-wireframe mockup will be customisable (boxes for content with clear content being referenced);
+-mockup configurable/re-configurable;
+-mockup downloadable;
+
+
+-will use custom CSS
+-stared working on the UI;
+
+
+-buttons: new template, add element (section, button, box -can be img, text, video,-
+
+#new mockup
+#add element (nav, section, footer)
+#add item (button, box, content- img, video, player, text, icons, etc...)
+#
+ 
+

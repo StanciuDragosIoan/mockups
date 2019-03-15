@@ -1,0 +1,133 @@
+/* RESET */
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  /* Reset margins and paddings on most elements */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* Removes discs from ul */
+ul {
+    list-style: none;
+  }
+
+  /* forms & buttons */
+  input,
+textarea,
+select,
+button {
+  color: inherit; 
+  font: inherit; 
+  letter-spacing: inherit; 
+}
+
+ 
+/* colors */
+:root {
+    --primary-bg-color: #00004d;
+   
+  }
+ 
+  /* Utility classes */
+  /* tooltip */
+  .btn-icon .tooltip{
+    opacity:0;
+    color:red;
+    margin: 0.2rem -1rem;
+  }
+ 
+ 
+  .btn-icon:hover .tooltip{
+    opacity: 1;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  }
+ 
+ 
+/* UI */
+/* main bar */
+.main-nav{
+    display:inline-flex;
+    position:fixed;
+    width:100%;
+    height:3rem;
+    color:#fff;
+}
+.nav-bar{
+    display:flex;   
+    /* background:red; */
+    width:80%;
+    color: var(--primary-bg-color);
+}
+
+.title{
+    width:20%;
+    text-align:center;
+    padding-top:0.5rem;
+    background:var(--primary-bg-color);
+}
+
+.main-btn{
+    width:125%;
+}
+
+.btn-icon{  
+    width:100%;
+    margin:auto;
+    display:block;
+    margin-left:40%;
+    margin-top:5%;
+}
+
+.btn-icon:hover{
+    cursor:pointer;
+}
+
+
+@media (max-width:600px){
+    .btn-icon{
+        color:red;
+    }
+
+    .nav-bar{
+        /* margin-top:3rem;
+        width:100%;
+        background-color:green; */
+        width:100%;
+    }
+
+    .title{
+        width:100%;
+    }
+
+    .main-nav{
+        flex-direction:column;
+    }
+}
